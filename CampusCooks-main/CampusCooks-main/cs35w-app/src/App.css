@@ -1,0 +1,151 @@
+.App {
+  background-color: #fadfaa;
+  background-size: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.NavLink {
+  color: #000000;
+  margin-top: 10px;
+  padding: 10px;
+  float: right;
+  font-family: fantasy;
+  font-size: xx-large;
+}
+
+.Webname {
+  border: solid;
+  font-size: xx-large;
+  float: left;
+  padding: 2px;
+  margin: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  color: #333333;
+
+
+}
+.welcome {
+  text-align: center;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #dc9a18;
+  color: white;
+  border: 1px solid #4a390e;
+  margin: 0 1rem;
+}
+
+.btn:hover {
+  background-color: #5f4d3b;
+  border-color: #895971;
+}
+
+.btn--alt {
+  background-color: transparent;
+  color: #800040;
+}
+
+.btn--alt:hover {
+  background-color: #f8dae9;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.734);
+  border-radius: 4px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  left: 8rem;
+  width: 26em;
+}
+
+.card-center {
+  background-color: rgba(255, 255, 255, 0.734);
+  border-radius: 4px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  left: 8rem;
+  width: 26em;
+  margin: 0 auto;
+}
+
+.listcard {
+  background-color: rgba(255, 255, 255, 0.734);
+  border-radius: 4px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  left: 0rem;
+  width: 24em;
+}
+
+.cardTextArea {
+  background-color: rgba(255, 255, 255, 0.734);
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  left: 5rem;
+  width: 50rem;
+}
+
+.actions {
+  text-align: right;
+}
+
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  left: calc(50% - 15rem);
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 900;
+  background-color: rgba(227, 222, 205, 0.277);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.images {
+  width: 100%;
+}
+
+.rowC {
+  display: flex;
+  flex-direction: row;
+}
+
+div {
+  white-space: pre-line;
+}
+
+p.no-breaks {
+  white-space: nowrap;
+  color: red;
+}
+
+p.with-breaks {
+  white-space: pre-wrap;
+  color: blue;
+}

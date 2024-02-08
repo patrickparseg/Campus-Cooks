@@ -1,0 +1,22 @@
+.NavLink {
+    /* color: #ffc53e; */
+    margin-top: 15px;
+    padding: 10px;
+    float: right;
+    font-family: monaco;
+    font-size: xx-large;
+}
+
+header {
+    background-color: rgb(194, 243, 253);
+    height: 10vh;
+}
+
+.Webname {
+    font-family: copperplate;
+    border: solid;
+    font-size: xx-large;
+    float: left;
+    padding: 10px;
+    margin: 9px;
+}
